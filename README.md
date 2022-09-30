@@ -27,12 +27,16 @@ How to run:
 <pre><code>npm install && npm start</code></pre>
 - Open in your browser the URL: http://localhost:<code>[PORT in your .env file without the square brackets]</code>/
 
-Node packages used:
+Node packages used in the production environment:
 
 - <a href="https://www.npmjs.com/package/express" target="_blank">express</a>
 - <a href="https://www.npmjs.com/package/cors" target="_blank">cors</a>
 - <a href="https://www.npmjs.com/package/dotenv" target="_blank">dotenv</a>
 - <a href="https://www.npmjs.com/package/body-parser" target="_blank">body-parser</a>
+
+Extra node packages used in the development environment:
+
+- <a href="https://www.npmjs.com/package/nodemon" target="_blank">nodemon</a>
 
 Relevant links:
 
